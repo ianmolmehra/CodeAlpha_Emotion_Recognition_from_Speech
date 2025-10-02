@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emotion Recognition from Speech</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Emotion Recognition from Speech</h1>
+    <p class="lead">Upload a short WAV audio clip (speech) and get the predicted emotion.</p>
+    <form id="upload-form">
+      <label class="file-label">
+        <input id="audio-file" type="file" accept="audio/*" />
+        <span>Choose audio file</span>
+      </label>
+      <button id="predict-btn" type="button">Predict Emotion</button>
+    </form>
+
+    <div id="result" class="card hidden">
+      <h2>Prediction</h2>
+      <p id="emotion">-</p>
+    </div>
+
+    <footer>
+      <small>Built as an internship task demo • Replace the placeholder model with a trained model.</small>
+    </footer>
+  </main>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

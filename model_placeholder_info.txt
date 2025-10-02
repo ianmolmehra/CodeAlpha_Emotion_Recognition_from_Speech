@@ -1,0 +1,1 @@
+This folder is for your trained model. Use joblib.dump(model, 'models/model_placeholder.pkl') after training.

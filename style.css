@@ -1,0 +1,13 @@
+/* Simple modern styling */
+:root{--bg:#0f1724;--card:#0b1220;--accent:#5eead4;--muted:#9aa4b2}
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif; margin:0; background:linear-gradient(180deg,#071021 0%, #0f1724 100%); color:#e6eef6}
+.container{max-width:760px;margin:48px auto;padding:28px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+h1{margin:0 0 8px;font-size:22px}
+.lead{color:var(--muted);margin-bottom:18px}
+.file-label{display:inline-block;padding:12px 18px;border-radius:10px;background:rgba(255,255,255,0.03);cursor:pointer}
+.file-label input{display:none}
+button{margin-left:12px;padding:10px 16px;border-radius:10px;border:none;background:var(--accent);color:#052018;cursor:pointer;font-weight:600}
+.card{margin-top:18px;padding:16px;border-radius:10px;background:rgba(255,255,255,0.02)}
+.hidden{display:none}
+footer{margin-top:18px;color:var(--muted)}
